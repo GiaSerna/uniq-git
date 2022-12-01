@@ -21,69 +21,6 @@ width: 0.8em;
 margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-color: #aaaaaa;
-}
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } 
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.at { color: #7d9029; } 
-code span.bn { color: #40a070; } 
-code span.bu { color: #008000; } 
-code span.cf { color: #007020; font-weight: bold; } 
-code span.ch { color: #4070a0; } 
-code span.cn { color: #880000; } 
-code span.co { color: #60a0b0; font-style: italic; } 
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.do { color: #ba2121; font-style: italic; } 
-code span.dt { color: #902000; } 
-code span.dv { color: #40a070; } 
-code span.er { color: #ff0000; font-weight: bold; } 
-code span.ex { } 
-code span.fl { color: #40a070; } 
-code span.fu { color: #06287e; } 
-code span.im { color: #008000; font-weight: bold; } 
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.kw { color: #007020; font-weight: bold; } 
-code span.op { color: #666666; } 
-code span.ot { color: #007020; } 
-code span.pp { color: #bc7a00; } 
-code span.sc { color: #4070a0; } 
-code span.ss { color: #bb6688; } 
-code span.st { color: #4070a0; } 
-code span.va { color: #19177c; } 
-code span.vs { color: #4070a0; } 
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
 
 
@@ -2608,20 +2545,10 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#rstudio-codes" id="toc-rstudio-codes" class="nav-link active" data-scroll-target="#rstudio-codes"><span class="toc-section-number">1</span>  Rstudio codes</a></li>
-  <li><a href="#bash-code" id="toc-bash-code" class="nav-link" data-scroll-target="#bash-code"><span class="toc-section-number">2</span>  Bash code</a></li>
-  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github"><span class="toc-section-number">3</span>  GitHub</a>
-  <ul class="collapse">
-  <li><a href="#user" id="toc-user" class="nav-link" data-scroll-target="#user"><span class="toc-section-number">3.1</span>  User</a></li>
-  <li><a href="#create-a-ssh-key" id="toc-create-a-ssh-key" class="nav-link" data-scroll-target="#create-a-ssh-key"><span class="toc-section-number">3.2</span>  Create a SSH key</a></li>
-  <li><a href="#info-local-server-firs-time" id="toc-info-local-server-firs-time" class="nav-link" data-scroll-target="#info-local-server-firs-time"><span class="toc-section-number">3.3</span>  Info: local &gt; server (firs time)</a></li>
-  <li><a href="#info-local-server-updates" id="toc-info-local-server-updates" class="nav-link" data-scroll-target="#info-local-server-updates"><span class="toc-section-number">3.4</span>  Info: local &gt; server (updates)</a></li>
-  <li><a href="#info-server-local" id="toc-info-server-local" class="nav-link" data-scroll-target="#info-server-local"><span class="toc-section-number">3.5</span>  Info: server &gt; local</a></li>
-  </ul></li>
-  <li><a href="#introduccion" id="toc-introduccion" class="nav-link" data-scroll-target="#introduccion"><span class="toc-section-number">4</span>  Introduccion</a></li>
-  <li><a href="#materiales-y-metodos" id="toc-materiales-y-metodos" class="nav-link" data-scroll-target="#materiales-y-metodos"><span class="toc-section-number">5</span>  Materiales y metodos</a></li>
-  <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados"><span class="toc-section-number">6</span>  Resultados</a></li>
-  <li><a href="#discusiones" id="toc-discusiones" class="nav-link" data-scroll-target="#discusiones"><span class="toc-section-number">7</span>  Discusiones</a></li>
+  <li><a href="#introduccion" id="toc-introduccion" class="nav-link active" data-scroll-target="#introduccion"><span class="toc-section-number">1</span>  Introduccion</a></li>
+  <li><a href="#materiales-y-metodos" id="toc-materiales-y-metodos" class="nav-link" data-scroll-target="#materiales-y-metodos"><span class="toc-section-number">2</span>  Materiales y metodos</a></li>
+  <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados"><span class="toc-section-number">3</span>  Resultados</a></li>
+  <li><a href="#discusiones" id="toc-discusiones" class="nav-link" data-scroll-target="#discusiones"><span class="toc-section-number">4</span>  Discusiones</a></li>
   </ul>
 </nav>
 </div>
@@ -2652,110 +2579,18 @@ vertical-align: -.125em;
 
 </header>
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="rstudio-codes" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Rstudio codes</h1>
-<ul>
-<li>Limpiar consola o terminal
-<ul>
-<li>ctrl + L<br>
-</li>
-</ul></li>
-<li>Asignar un objeto
-<ul>
-<li>ctrl + -</li>
-</ul></li>
-<li>Operador pipe
-<ul>
-<li>ctrl + shift + m</li>
-</ul></li>
-<li>Ejecutar código en la consola
-<ul>
-<li>ctrl + enter</li>
-</ul></li>
-<li>Ejecutar código en el terminal
-<ul>
-<li>ctrl + alt + m</li>
-</ul></li>
-</ul>
-</section>
-<section id="bash-code" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Bash code</h1>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="co"># change directory</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="co"># remove file or folder</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="co"># list files</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="co"># create a directory</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">open</span> <span class="co"># open file or directory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="github" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> GitHub</h1>
-<section id="user" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="user"><span class="header-section-number">3.1</span> User</h2>
-</section>
-<section id="create-a-ssh-key" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="create-a-ssh-key"><span class="header-section-number">3.2</span> Create a SSH key</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> rsa <span class="at">-C</span> giovana.serna@uniq.edu.pe</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_rsa.pub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Insertar SSH key en GitHub <a href="https://github.com/settings/keys" class="uri">https://github.com/settings/keys</a></li>
-</ul>
-</section>
-<section id="info-local-server-firs-time" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="info-local-server-firs-time"><span class="header-section-number">3.3</span> Info: local &gt; server (firs time)</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;first commit&quot;</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-M</span> main</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin git@github.com:Flavjack/cif.git <span class="co"># remplazar!</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name flozano</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email flozano@lamolina.edu.pe</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="info-local-server-updates" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="info-local-server-updates"><span class="header-section-number">3.4</span> Info: local &gt; server (updates)</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;Pages one&quot;</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="info-server-local" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="info-server-local"><span class="header-section-number">3.5</span> Info: server &gt; local</h2>
-<div class="cell">
-<pre class="git cell-code"><code>git init
-git add .
-git commit -m &quot;first commit&quot;
-git branch -M main
-git remote add origin git@github.com:GiaSerna/uniq-git.git
-git push -u origin main
-</code></pre>
-</div>
-<p>My first web pages</p>
-</section>
-</section>
-<section id="introduccion" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Introduccion</h1>
+<section id="introduccion" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduccion</h1>
 <p>Bosques y pastizales en La Convención: La quema como expresión de conflicto socio-ecológico</p>
 </section>
-<section id="materiales-y-metodos" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Materiales y metodos</h1>
+<section id="materiales-y-metodos" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Materiales y metodos</h1>
 </section>
-<section id="resultados" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Resultados</h1>
+<section id="resultados" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Resultados</h1>
 </section>
-<section id="discusiones" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Discusiones</h1>
+<section id="discusiones" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Discusiones</h1>
 </section>
 
 </main>
