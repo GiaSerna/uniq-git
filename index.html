@@ -2695,7 +2695,7 @@ vertical-align: -.125em;
 <section id="create-a-ssh-key" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="create-a-ssh-key"><span class="header-section-number">3.2</span> Create a SSH key</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> rsa <span class="at">-C</span> <span class="st">&quot;flozano@lamolina.edu.pe&quot;</span> </span>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> rsa <span class="at">-C</span> giovana.serna@uniq.edu.pe</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_rsa.pub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
@@ -2729,8 +2729,15 @@ vertical-align: -.125em;
 <section id="info-server-local" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="info-server-local"><span class="header-section-number">3.5</span> Info: server &gt; local</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre class="git cell-code"><code>git init
+git add .
+git commit -m &quot;first commit&quot;
+git branch -M main
+git remote add origin git@github.com:GiaSerna/uniq-git.git
+git push -u origin main
+</code></pre>
 </div>
+<p>My first web pages</p>
 </section>
 </section>
 
