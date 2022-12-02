@@ -8,6 +8,10 @@ format:
     number-sections: true
     self-contained: true
     output-file: "index"
+  docx:
+    toc: false
+    section-numbers: true
+    output-file: "manuscript"
 editor_options: 
   chunk_output_type: console
 execute: 
@@ -15,12 +19,25 @@ execute:
 ---
 
 # Introduccion 
+**Keywords** Quemas, pastizales, cambio climatico 
+$$y = A + B + x + bloque + \epsilon$$ 
+$x^{2_y}$ 
+
+
 
 Bosques y pastizales en La Convención: La quema como expresión de conflicto socio-ecológico 
+$$y\=\ tratamientos\ +\ bloque\ +\ error_{tratamiento}$$
+
 
 # Materiales y metodos 
+## Materiales 
+## Metodos 
+#Diseño experimental
+Se uso un diseño en bloques complejos al azar $y = a + bx + e$
 
 
 # Resultados 
 
 # Discusiones 
+# Referencias 
+

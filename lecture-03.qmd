@@ -86,7 +86,7 @@ git config --global user.email flozano@lamolina.edu.pe
 #| eval: false
 
 git add .
-git commit -m "Pages one"
+git commit -m "QUEMA"
 git push
 ```
 
@@ -108,13 +108,4 @@ git push -u origin main
 
 My first web pages 
 
-# Introduccion 
 
-Bosques y pastizales en La Convención: La quema como expresión de conflicto socio-ecológico 
-
-# Materiales y metodos 
-
-
-# Resultados 
-
-# Discusiones 
